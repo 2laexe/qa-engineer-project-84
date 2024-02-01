@@ -1,19 +1,19 @@
 ---
 - summary: |
     Проверка возможности искать товары по ключевому слову
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности искать товары по категории
- status: fail
+ status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по производителю
- status: fail
+ status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по цене 
- status: fail
+ status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по наличию 
@@ -21,71 +21,71 @@ status: fail
 
 - summary: |
     Проверка возможности просматривать товары
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности просматривать товары
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности добавлять товары в корзину
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности добавлять товары в корзину
-status: fail
+status: pass
     
 - summary: |
-    Проверка возможности добавлять товары в корзину
-status: fail
+    Проверка возможности просматривать содержимое корзины
+status: pass
 
 - summary: |
     Проверка возможности просматривать содержимое корзины
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-status: fail
+status: pass
 
 - summary: |
     Проверка переключения языка
-status: fail
+status: pass
 
 - summary: |
     Проверка переключения языка
-status: fail
+status: pass
 
 - summary: |
     Проверка очистки корзины
-status: fail
+status: pass
 
 - summary: |
     Проверка удаления товара из корзины
-status: fail
+status: pass
 
 - summary: |
     Проверка отображения суммы добаленных товаров
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности добавлять товар в корзину и продолжать выбирать товары в каталоге
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности находясь на странице корзины продолжить выбирать товары в каталоге
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности находясь на странице корзины продолжить выбирать товары в каталоге
-status: fail
+status: pass
 
 - summary: |
     Проверка возможности оформить заказ
-status: fail
+status: pass
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
@@ -93,4 +93,4 @@ status: fail
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
-status: fail
+status: pass
