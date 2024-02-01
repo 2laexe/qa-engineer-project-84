@@ -4,6 +4,10 @@
 status: pass
 
 - summary: |
+    Проверка кнопки "Категория"
+  status: pass
+
+- summary: |
     Проверка возможности искать товары по категории
  status: pass
 
@@ -93,4 +97,32 @@ status: fail
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
+status: pass
+
+- summary: |
+    Проверка мобильной версии сайта
+status: fail
+
+- summary: |
+    Проверка совместимости с Edge 121
+status: pass
+
+- summary: |
+    Проверка совместимости с Firefox 122
+status: pass
+
+- summary: |
+    Проверка совместимости с Chrome 121
+status: pass
+
+- summary: |
+    Проверка совместимости с Opera 106
+status: pass
+
+- summary: |
+    Проверка совместимости с Yandex 14.12
+status: fail
+
+- summary: |
+    Проверка совместимости с Safari 17
 status: pass
