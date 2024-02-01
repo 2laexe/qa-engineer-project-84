@@ -1,0 +1,44 @@
+---
+- summary: |
+    Не работает фильтр "В наличии"
+  environment: |
+    Google Chrome 121.0.6167.139
+    Windows 11 Pro для рабочих станций 23H2
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Снять галку в "Чекбоксе" "В наличии"
+  expected-result: |
+    Отображаются все товары в том числе не в наличии
+  actual-result: |
+    Не один товар не отображается
+
+- summary: |
+    Не работает кнопка закрытия окна "Заказ успешно формлен"
+  environment: |
+    Google Chrome 121.0.6167.139
+    Windows 11 Pro для рабочих станций 23H2
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Добавить товар в корзину
+    3. Перейти в корзину
+    4. Нажать кнопку "Оформить заказ"
+    5. Нажать кнопу "«кнопка закрытия окна»"
+  expected-result: |
+    Окно "Заказ успешно формлен" не выводится 
+  actual-result: |
+    Окно "Заказ успешно формлен" не закрывется
+
+- summary: |
+    Отсутствует мобильная версии сайта
+  environment: |
+    Google Chrome 121.0.6167.139
+    Windows 11 Pro для рабочих станций 23H2
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Открыть "DevTools"
+    3. Нажать кнопку "Toggle device toolbar"
+    4. Выбрать произвольное мобильное устройство
+  expected-result: |
+    Открывается мобильная версия сайта
+  actual-result: |
+    Мобильная версия сайта отсутствует
