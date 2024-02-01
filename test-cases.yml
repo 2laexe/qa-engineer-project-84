@@ -181,11 +181,25 @@
   requirement: |
       - Сайт должен иметь версии на Русском и Английском языках
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница https://hexlet-products-store.vercel.app/, установлен язык English
   test-data: |
     no data
   steps:
     - Нажать кнопку "Language"
+    - Выбрать язык "Russian"
+      expected-result: |
+    Интерфейс сайта переключился на русский язык
+
+- summary: |
+    Проверка переключения языка
+  requirement: |
+      - Сайт должен иметь версии на Русском и Английском языках
+  prerequisites:
+    Открыта страница https://hexlet-products-store.vercel.app/, установлен язык Russian
+  test-data: |
+    no data
+  steps:
+    - Нажать кнопку "Язык"
     - Выбрать язык "Russian"
       expected-result: |
     Интерфейс сайта переключился на русский язык
