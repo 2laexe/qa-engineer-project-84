@@ -47,6 +47,22 @@
     https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/3.jpg
 
 - summary: |
+    Не работает кнопка закрытия окна "Заказ успешно формлен"
+ environment: |
+    Google Chrome 121.0.6167.139
+    Windows 11 Pro для рабочих станций 23H2
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Добавить товар в корзину
+    3. Перейти в корзину
+    4. Нажать кнопку "Оформить заказ"
+    5. Нажать кнопу "«кнопка закрытия окна»"
+  expected-result: |
+    Окно "Заказ успешно формлен" не выводится 
+  actual-result: |
+    Окно "Заказ успешно формлен" не закрывется
+
+- summary: |
     Отсутствует мобильная версии сайта
   environment: |
     Google Chrome 121.0.6167.139
