@@ -67,7 +67,7 @@ actual-result: |
 environment: |
     Google Chrome 121.0.6167.139
     Windows 11 Pro для рабочих станций 23H2
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Открыть "DevTools"
     3. Нажать кнопку "Toggle device toolbar"
