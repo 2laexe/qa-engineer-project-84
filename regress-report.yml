@@ -1,115 +1,115 @@
 ---
 test-cases:
-  - summary: |
+ - summary: |
     Проверка возможности искать товары по ключевому слову
-status: pass
+   status: pass
 
  - summary: |
     Проверка возможности искать товары по категории
-status: pass
-
-- summary: |
-    Проверка возможности фильтровать товары по производителю
    status: pass
 
 - summary: |
+    Проверка возможности фильтровать товары по производителю
+  status: pass
+
+- summary: |
     Проверка возможности фильтровать товары по цене 
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по наличию 
-status: pass
+  status: pass
 
 - summary: |
     Проверка пангинации
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-status: pass
+  status: pass
 
 - summary: |
     Проверка счетчика корзины
-status: pass
+  status: pass
     
 - summary: |
     Проверка возможности добавления товаров в корзину из карточки товара
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности добавления товаров в корзину с главной страницы
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-status: pass
+  status: pass
 
 - summary: |
     Проверка переключения языка
-status: pass
+  status: pass
 
 - summary: |
     Проверка переключения языка
-status: pass
+  status: pass
 
 - summary: |
     Проверка очистки корзины
-status: pass
+  status: pass
 
 - summary: |
     Проверка удаления товара из корзины
-status: pass
+  status: pass
 
 - summary: |
     Проверка отображения суммы добаленных товаров
-status: pass
+  status: pass
 
 - summary: |
     Проверка кнопки "Продолжить покупки"
-status: pass
+  status: pass
 
 - summary: |
     Проверка кнопки "Магазин"
-status: pass
+  status: pass
 
 - summary: |
     Проверка возможности оформить заказ
-status: fail
+  status: fail
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
-status: fail
+  status: fail
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
-status: pass
+  status: pass
 
 - summary: |
     Проверка мобильной версии сайта
-status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости с Edge 121
-status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости с Firefox 122
-status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости с Chrome 121
-status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости с Opera 106
-status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости с Safari 17
-status: pass
+  status: pass
 
 - summary: |
     Проверка сброса фильтра поиска по категории
-status: pass
+  status: pass
 
 bugreports: []
