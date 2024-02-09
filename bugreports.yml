@@ -11,6 +11,7 @@
     Отображаются все товары в том числе не в наличии
   actual-result: |
     Не один товар не отображается
+    https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%20%D0%92%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B8.jpg
 
 - summary: |
     Не работает кнопка закрытия окна "Заказ успешно формлен"
