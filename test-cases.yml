@@ -1,326 +1,326 @@
 ---
 - summary: |
     Проверка возможности искать товары по ключевому слову
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Вводим в строку "Поиск" наименование товара
-expected-result: |
+  expected-result: |
     Отображаются товары соответсвующие введенному ключевому слову
 
 - summary: |
     Проверка возможности искать товары по категории
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на кнопку "Категория"
     - В выпадающем списке выбрать произвольную категорию
-expected-result: |
+  expected-result: |
     Отображаются товары выбранной категории
 
 - summary: |
     Проверка возможности фильтровать товары по производителю
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность фильтровать товары
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на произвольное количесво "Чекбоксов" раздела Производитель
-expected-result: |
+  expected-result: |
     Отображаются товары выбранных производителей
 
 - summary: |
     Проверка возможности фильтровать товары по цене 
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность фильтровать товары
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Ввести в ценовой фильтр произвольные значения    
-expected-result: |
+  expected-result: |
     Отображаются товары в диапазоне введеных значений
 
 - summary: |
     Проверка возможности фильтровать товары по наличию 
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность фильтровать товары
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Снять галку в "Чекбоксе" "В наличии"    
-expected-result: |
+  expected-result: |
     Отображаются все товары в том числе не в наличии
 
 - summary: |
     Проверка пангинации
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на кнопку "Следующая"
     - Нажать на кнопку "Следующая"
     - Нажать на кнопку "Предыдущая"
-expected-result: |
+  expected-result: |
     Изменяется список товаров
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на карточку произвольного товара 
-expected-result: |
+  expected-result: |
     Отображается кароточка товара с подробным описанием
 
 - summary: |
     Проверка счетчика корзины
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Выбрать произвольный товар
     - Нажать на кнопку "В корзину"
-expected-result: |
+  expected-result: |
     Изменился счетчик корзины в меню страницы
    
 - summary: |
     Проверка возможности добавления товаров в корзину из карточки товара
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
   test-data: |
     no data
-steps:
+  steps:
     - Открыть карточку произвольного товара
     - Нажать на кнопку "В корзину"
     - Нажать кнопку "Корзина"
-expected-result: |
+ expected-result: |
     Товар успешно добавлен в корзину 
 
 - summary: |
     Проверка возможности добавления товаров в корзину с главной страницы
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Выбрать произвольный товар
     - Нажать на кнопку "В корзину"
     - Нажать кнопку "Корзина"
-expected-result: |
+  expected-result: |
     Товар успешно добавлен в корзину 
 
 - summary: |
     Проверка возможности просматривать подробную информацию о товаре 
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, в корзине добавлены товары
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на строку произвольного товара 
-expected-result: |
+  expected-result: |
     Отображается кароточка товара с подробным описанием
 
 - summary: |
     Проверка переключения языка
-requirement: |
+  requirement: |
       - Сайт должен иметь версии на Русском и Английском языках
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, установлен язык English
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать кнопку "Language"
     - Выбрать язык "Russian"
-      expected-result: |
+  expected-result: |
     Интерфейс сайта переключился на Русский язык
 
 - summary: |
     Проверка переключения языка
-requirement: |
+  requirement: |
       - Сайт должен иметь версии на Русском и Английском языках
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, установлен язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать кнопку "Язык"
     - Выбрать язык "English"
-expected-result: |
+  expected-result: |
     Интерфейс сайта переключился на Английский язык
 
 - summary: |
     Проверка очистки корзины
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность очищать корзину
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, в корзине добавлены товары
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать кнопку "Очистить корзину"    
-expected-result: |
+  expected-result: |
     Пустая корзина
 
 - summary: |
     Проверка удаления товара из корзины
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность удалять товары из корзины
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, в корзине добавлены товары
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать кнопку "Удалить"в строке соотвествующего товара    
-expected-result: |
+  expected-result: |
     Товар удален
 
 - summary: |
     Проверка отображения суммы добаленных товаров
-requirement: |
+  requirement: |
       - В корзине должна отображаться сумма добаленных товаров
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Добавить произвольные товары в корзину
     - Нажать кнопку "Корзина"
-expected-result: |
+  expected-result: |
     Отображается сумма добывленых в корзину товаров
 
 - summary: |
     Проверка кнопки "Продолжить покупки"
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность перейти с любой страницы на главную страницу сайта
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:    
+  steps:    
     - Нажать на кнопку "Продолжить покупки"
-expected-result: |
+  expected-result: |
     Произошел переход на главную страницу сайта
 
 - summary: |
     Проверка кнопки "Магазин"
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность перейти с любой страницы на главную страницу сайта
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/products/1, выбран язык Russian
-test-data: |
+  test-data: |
     no data
-steps:    
+  steps:    
     - Нажать на кнопку "Магазин"
-expected-result: |
+  expected-result: |
     Произошел переход на главную страницу сайта
 
 - summary: |
     Проверка возможности оформить заказ
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность оформить заказ
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, в корзине добавлены товары, открыт "DevTools" вкладка Network
-test-data: |
+  test-data: |
     no data
-steps:    
+  steps:    
     - Нажать на кнопку "Оформить заказ"
-expected-result: |
+  expected-result: |
     Выводится сообщение "Заказ успешно формлен", информация о заказе отправлена на сервер
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность оформить заказ
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, Выводиться сообщение "Заказ успешно формлен"
-test-data: |
+  test-data: |
     no data
-steps:    
+  steps:    
     - Нажать на кнопку "«кнопка закрытия окна»"
-expected-result: |
+  expected-result: |
     Окно "Заказ успешно формлен" не выводится 
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
-requirement: |
+  requirement: |
       - Пользователь должен иметь возможность оформить заказ
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/cart, выбран язык Russian, Выводиться сообщение "Заказ успешно формлен"
-test-data: |
+  test-data: |
     no data
-steps:    
+  steps:    
     - Нажать на кнопку "«Закрыть»"
-expected-result: |
+  expected-result: |
     Окно "Заказ успешно формлен" не выводится 
 
 - summary: |
     Проверка мобильной версии сайта
-requirement: |
+  requirement: |
     - Сайт должен иметь мобильную версию
-prerequisites: |
+  prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app/
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Открыть "DevTools"
     - Нажать кнопку "Toggle device toolbar"
     - Выбрать произвольное мобильное устройство
-expected-result: |
+  expected-result: |
     Открывается мобильная версия сайта
 
 - summary: |
     Проверка совместимости с последними версиями браузеров
-requirement: |
+  requirement: |
     - Сайт нужно протестировать на совместимость с последними версиями браузеров
-prerequisites:
+  prerequisites:
     Открыт сайт и выполнена авториция https://live.browserstack.com/dashboard
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Открыть сайт "https://hexlet-products-store.vercel.app" в каждом из доступных браузеров
-expected-result: |
+  expected-result: |
     Сайт загружается, отображается главная страница магазина 
 
 - summary: |
     Проверка сброса фильтра поиска по категории
-requirement: |
+  requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-prerequisites:
+  prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/, выбран язык Russian, включен фильтр по одной из категорий 
-test-data: |
+  test-data: |
     no data
-steps:
+  steps:
     - Нажать на кнопку "Категория"
     - В выпадающем списке выбрать пустую категорию
-expected-result: |
+  expected-result: |
     Отображаются все товары
