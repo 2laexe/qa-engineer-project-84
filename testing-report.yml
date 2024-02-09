@@ -64,10 +64,6 @@ status: pass
 status: pass
 
 - summary: |
-    Проверка возможности добавлять товар в корзину и продолжать выбирать товары в каталоге
-status: pass
-
-- summary: |
     Проверка кнопки "Продолжить покупки"
 status: pass
 
@@ -77,7 +73,7 @@ status: pass
 
 - summary: |
     Проверка возможности оформить заказ
-status: pass
+status: fail
 
 - summary: |
     Проверка закрытия окна "Заказ успешно формлен"
@@ -110,3 +106,7 @@ status: pass
 - summary: |
     Проверка совместимости с Safari 17
 status: pass
+
+- summary: |
+    Проверка сброса фильтра поиска по категории
+status: fail
