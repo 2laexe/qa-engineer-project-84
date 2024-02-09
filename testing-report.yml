@@ -5,11 +5,11 @@ status: pass
 
 - summary: |
     Проверка возможности искать товары по категории
- status: pass
+status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по производителю
- status: pass
+status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по цене 
@@ -17,7 +17,7 @@ status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по наличию 
- status: fail
+status: fail
 
 - summary: |
     Проверка пангинации
