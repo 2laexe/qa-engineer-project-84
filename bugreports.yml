@@ -11,10 +11,10 @@
     Отображаются все товары в том числе не в наличии
   actual-result: |
     Не один товар не отображается
-    https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%20%D0%92%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B8.jpg
+    https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/1.jpg
 
 - summary: |
-    Не работает кнопка закрытия окна "Заказ успешно формлен"
+    Ошибка 500 при оформлении заказа
   environment: |
     Google Chrome 121.0.6167.139
     Windows 11 Pro для рабочих станций 23H2
@@ -22,12 +22,29 @@
     1. Зайти на страницу https://hexlet-products-store.vercel.app/
     2. Добавить товар в корзину
     3. Перейти в корзину
+    4. открыть "DevTools" вкладка Network
     4. Нажать кнопку "Оформить заказ"
-    5. Нажать кнопу "«кнопка закрытия окна»"
   expected-result: |
-    Окно "Заказ успешно формлен" не выводится 
+    Выводится сообщение "Заказ успешно формлен", отсутсвуют ошибки в "DevTools"
   actual-result: |
-    Окно "Заказ успешно формлен" не закрывется
+    Выводится сообщение "Заказ успешно формлен", ошибка 500 Internal Server Error
+    https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/22.jpg
+
+- summary: |
+    Отсутствует возможность сбросить фильтр по категории
+  environment: |
+    Google Chrome 121.0.6167.139
+    Windows 11 Pro для рабочих станций 23H2
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажать на кнопку "Категория"
+    3. В выпадающем списке выбрать любую категорию
+    4. Нажать на кнопку "Категория"
+  expected-result: |
+    В выпадающем списке можно выбрать пустую категорию 
+  actual-result: |
+    В выпадающем списке отсутствует пустая категория
+    https://github.com/2laexe/qa-engineer-project-84/blob/main/screenshots/3.jpg
 
 - summary: |
     Отсутствует мобильная версии сайта
