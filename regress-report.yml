@@ -108,8 +108,8 @@ test-cases:
     Проверка сброса фильтра поиска по категории
    status: pass
 
-- summary: |
+ - summary: |
     Проверка ввода отрицательного числа в фильтре "Цена"
-  status: fail
+   status: fail
 
 bugreports: []
